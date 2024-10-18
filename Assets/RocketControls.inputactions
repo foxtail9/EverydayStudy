@@ -1,0 +1,54 @@
+{
+    "name": "RocketControls",
+    "maps": [
+        {
+            "name": "Rocket",
+            "id": "a2ed8ee4-37cf-4a21-8f46-54d6807fee89",
+            "actions": [
+                {
+                    "name": "Move",
+                    "type": "Button",
+                    "id": "792e20ec-de63-4620-8737-60991871bd09",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Boost",
+                    "type": "Button",
+                    "id": "5d6ffd04-5dd9-4220-bad8-0b365b049696",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "7a1d0b1d-2b60-4d15-9df6-bf6918e94b00",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "ec6d119a-6cfe-4357-b65c-d3252118ac82",
+                    "path": "<Keyboard>/space",
+                    "interactions": "MultiTap",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Boost",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
