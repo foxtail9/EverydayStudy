@@ -135,6 +135,7 @@ GameObject:
   - component: {fileID: 132452239}
   - component: {fileID: 132452238}
   - component: {fileID: 132452241}
+  - component: {fileID: 132452242}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -231,6 +232,21 @@ MonoBehaviour:
   prefab: {fileID: 7428414189007377587, guid: 3128f1d07bad31549b4a62ae75d04813, type: 3}
   poolSize: 300
   countgameobject: 0
+--- !u!114 &132452242
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 132452237}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd52e47a506ce5448803d7538103d04e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Quests:
+  - {fileID: 11400000, guid: e27924954da82964ba111a2ed99d396f, type: 2}
+  - {fileID: 11400000, guid: 223413ba8d2340c44993aea13cd4ecb5, type: 2}
 --- !u!1 &570945248
 GameObject:
   m_ObjectHideFlags: 0

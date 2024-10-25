@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 0}
   m_Name: NewMonsterQuest 1
   m_EditorClassIdentifier: Assembly-CSharp::MonsterQuestDataSO
-  QuestName: 
-  QuestDev: 
-  QuestRequiredLevel: 0
+  QuestName: "\uC2A4\uD30C\uB974\uD0C0\uC5D0 \uC785\uC131\uD588\uB2E4"
+  QuestDev: "\uD55C\uD6A8\uC2B9 \uB9E4\uB2C8\uC800\uB2D8\uACFC \uB300\uD654\uD558\uAE30"
+  QuestRequiredLevel: 10
   QuestNPC: 0
   QuestPrerequisites: 
   RequesMonster: 0
